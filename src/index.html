@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link  rel="stylesheet" href="css/normalize.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="header">
+           <div class="header__container container">
+               <div class="header__body">
+                   <!-- БЛОК С ССЫЛКАМИ ВВЕРХУ САЙТА - HEADER-NAV -->
+                    <div class="header__block-nav">
+                       <div class="header__map">
+                           <img src="<%=require('./img/icons/mapIcon.svg')%>" alt="иконка локации">
+                       </div>
+                       <nav class="header__block">
+                           <ul class="header__links">
+                               <li>Главная</li>
+                               <li>О компании</li>
+                               <li>Услуги</li>
+                           </ul>
+                           <div class="header__logo">
+                            <img src="<%=require('./img/icons/mainLogo.svg')%>" alt="иконка логотипа компании">
+                           </div>
+                             <ul class="header__links">
+                               <li>Цены</li>
+                               <li>Портфолио</li>
+                               <li>Контакты</li>
+                           </ul>
+                       </nav>
+                       <div class="header__tel">
+                        <img src="<%=require('./img/icons/phoneIcon.svg')%>" alt="иконка локации">
+                        </div>
+                        <div class="header__smal-screen-block">
+                            <div class="header__logo header__logo-smal-screen">
+                                <img src="<%=require('./img/icons/mainLogo.svg')%>" alt="иконка логотипа компании">
+                            </div>
+                            <!--КНОПКА БУРГЕР МЕНЮ -->
+                            <div class="test23">
+                                <div class="header__burger-button">
+                                    <span class="header__burger-strip"></span>
+                                </div>
+                                <!-- БУРГЕР МЕНЮ -->
+                                <nav class="header__block-burger">
+                                    <ul class="header__links header__links-burger">
+                                        <li>Главная</li>
+                                        <li>О компании</li>
+                                        <li>Услуги</li>
+                                        <li>Цены</li>
+                                        <li>Портфолио</li>
+                                        <li>Контакты</li>
+                                    </ul>
+                                </nav>
+                            </div> 
+                        </div>
+
+                     
+                    </div>
+                     <!-- БЛОК С ТАЙТЛОМ И ССЫЛКАМИ УСЛУГИ-ВИДЫ-ДИЗАЙН-РЕМОНТ -->
+                    <div class="header__price">
+                        <div class="header__block-title">
+                            <h1 class="header__title">Ремонт <span class="fill">и</span> дизайн <br/>
+                            <span class="fill"> в Москве и Московской области</h1></span>
+                            <button class="header__request-button">Оставить заявку <span></span></button>
+                        </div>
+                        <div class="header__block-links">
+                            <ul class="header__link-info">
+                                <li class="header__hover-price">Услуги по ремонту
+                                     <!-- БЛОК ПРИ ХОВЕРЕ НА Услуги по ремонту-->
+                                    <div class="test">
+                                        <div class="header__hover_info header__hover_info-work">
+                                            <h4 class="header__hover-title">Услуги по ремонту</h4>
+                                            <p class="header__hover-description">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                                            <button class="header__button-more header__button-more_rotate">
+                                                <img src="<%=require('./img/icons/buttonMore.svg')%>" alt="иконка кнопки узнать больше">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__hover-works">Виды работ
+                                    <!-- БЛОК ПРИ ХОВЕРЕ НА Виды работ-->
+                                <div class="test">
+                                    <div class="header__hover_info header__hover_info-type">
+                                        <h4 class="header__hover-title">Виды работ</h4>
+                                        <p class="header__hover-description">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                                        <button class="header__button-more header__button-more_rotate">
+                                            <img src="<%=require('./img/icons/buttonMore.svg')%>" alt="иконка кнопки узнать больше">
+                                        </button>
+                                        <div class="test56"></div>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class="header__hover-design">Дизайн интерьера
+                                    <!-- БЛОК ПРИ ХОВЕРЕ НА Дизайн интерьера-->
+                                    <div class="test">
+                                        <div class="header__hover_info header__hover_info-design">
+                                            <h4 class="header__hover-title">Дизайн интерьера</h4>
+                                            <p class="header__hover-description">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                                            <button class="header__button-more header__button-more_rotate">
+                                                <img src="<%=require('./img/icons/buttonMore.svg')%>" alt="иконка кнопки узнать больше">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="header__hover-space">Ремонт помещений
+                                    <div class="test">
+                                        <div class="header__hover_info header__hover_info-renovate">
+                                            <h4 class="header__hover-title">Ремонт помещений</h4>
+                                            <p class="header__hover-description">С другой стороны реализация намеченных плановых заданий требуют от нас анализа.</p>
+                                            <button class="header__button-more header__button-more_rotate">
+                                                <img src="<%=require('./img/icons/buttonMore.svg')%>" alt="иконка кнопки узнать больше">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <button class="header__button-more">
+                             <img src="<%=require('./img/icons/buttonMore.svg')%>" alt="иконка кнопки узнать больше">
+                            </button>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </header>
+        <main class="main">
+          <section class="example">
+            <div class="example__container container">
+                <div class="example__body">
+                 <h2 class="example__title">Примеры <span class="fill">выполненных</span> работ <span class="example__title-decor"></span></h2>
+                 <div class="example__list">
+                     <article class="example__item">
+                         <img src="<%=require('./img/example1.svg')%>" alt="пример работы">
+                         <p class="example__description">Новостройка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example2.svg')%>" alt="пример работы">
+                         <p class="example__description">Новостройка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example3.svg')%>" alt="пример работы">
+                         <p class="example__description">Вторичка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example4.svg')%>" alt="пример работы">
+                         <p class="example__description">Вторичка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example5.svg')%>" alt="пример работы">
+                         <p class="example__description">Новостройка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example6.svg')%>" alt="пример работы">
+                         <p class="example__description">Вторичка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example7.svg')%>" alt="пример работы">
+                         <p class="example__description">Вторичка</p>
+                     </article>
+                     <article class="example__item">
+                         <img src="<%=require('./img/example8.svg')%>" alt="пример работы">
+                         <p class="example__description">Новостройка</p>
+                     </article>
+                 </div>
+                 <button class="example__all">Все проекты <span></span></button>
+                </div>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+           <div class="footer__container container">
+               <div class="footer__body">
+                   <h3 class="footer__title">Связаться <span class="fill">c нами</span> <span class="example__title-decor"></span></h3>
+                   <div class="footer__block">
+                       <div class="footer__info-block">
+                           <div class="footer__adress">
+                                <p class="footer__title-item">Офис</p>
+                                <p class="footer__description">Москва, ул. Уличная, д. 1, оф. 1</p>
+                           </div>
+                           <div class="footer__email">
+                                <p class="footer__title-item">E-mail</p>
+                                <p class="footer__description">company@company.ru</p>
+                           </div>
+                           <div class="footer__social">
+                                <p class="footer__title-item">Социальные сети</p>
+                                <div class="footer__social-block">
+                                    <div class="footer__item-socials">
+                                    </div>
+                                    <div class="footer__item-socials">    
+                                    </div>
+                                    <div class="footer__item-socials"> 
+                                    </div>
+                                </div>
+                           </div>
+                       </div>
+                       <div class="footer__info-block">
+                         <div class="footer__time">
+                            <p class="footer__title-item">Режим работы</p>
+                            <p class="footer__description">Пн-Вт: 10<span>00</span>— 19<span>00</span>; Сб-Вс: 10<span>00</span> — 15<span>00</span></p>
+                         </div>
+                         <div class="footer__time-tel">
+                            <p class="footer__title-item">Телефон</p>
+                            <p class="footer__description">8 (800) 900-00-00</p>
+                         </div>
+                       </div>
+                       <div class="footer__more">
+                           <h3 class="footer__title-item footer__title-item_dif">Остались вопросы?</h3>
+                           <form action="" class="footer__form">
+
+                               <label for="name" class="footer__input-title">Ваше имя
+                                   <input name="name" placeholder="Иван Иванов" class="footer__input" type="text">
+                               </label>
+                                <label for="phone" class="footer__input-title">Телефон / E-mail
+                                    <input name="phone" placeholder="example@example.com" class="footer__input" type="text">
+                                </label>
+                                <label for="text" class="footer__input-title">Ваше сообщение
+                                    <input name="text" placeholder="Текст обращения" class="footer__input" type="text">
+                                    <div class="footer__input-icon">
+                                        <img src="<%=require('./img/icons/clipIcon.svg')%>" alt="иконка прикрепить текст">
+                                    </div>
+                                </label>
+
+                                <p class="footer__info">Нажимая на кнопку «Получить консультацию», вы соглашаетесь
+                                    на <span>обработку персональных данных</span></p>
+                                <button class="footer__consulting">Получить консультацию <span></span> </button>
+                           </form>
+                       </div>
+                   </div>
+                   <div class="footer__rights">
+                       <p class="footer__rights-text"> <span>© 2022 Сompany.</span> Соглашение об обработке персональных данных и политика конфиденциальности</p>
+                       <p class="footer__rights-text">Сделано в <span>Palladiumlab</span> </p>
+                   </div>
+               </div>
+           </div>
+        </footer>
+</body>
+</html>
